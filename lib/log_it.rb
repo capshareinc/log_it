@@ -20,5 +20,5 @@ module LogIt
       Rails.logger.debug { formatted_stmnt }
     end
   end
-  method_alias :log_it, :logit
+  alias_method :log_it, :logit
 end
