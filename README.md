@@ -4,34 +4,24 @@ Simple ubiquitous method to write to the log. Writing out Rails.logger.info is w
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add to this to your Gemfile and then bundle
 
 ```ruby
 gem 'log_it'
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install log_it
-
 Initialize it with
 
 ```
-rake initialize_log_it
+rails g log_it:install
 ```
 
 ## Usage
 
-
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/log_it/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+```ruby
+logit "HERES A LOGIT STATEMENT", color: :red
+logit "info", lvl:1, :color => :red
+logit "info plain", lvl: 'info'
+logit "Again with teh info", lvl: :info
+logit "Rails.logger.fatal by severity", severity: 4
+```
