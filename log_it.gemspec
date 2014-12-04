@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = LogIt::VERSION
   spec.authors       = ["paulbaker3"]
   spec.email         = ["paul.baker.3@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Simple ubiquitous method to log}
+  spec.description   = %q{Writing out Rails.logger.info is way too hard. This is easier. And it has colors, so.... yay.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
