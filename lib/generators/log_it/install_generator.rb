@@ -5,7 +5,7 @@ module LogIt
     source_root File.expand_path('../templates', __FILE__)
 
     def copy_initializer_file
-      copy_file "log_it.rb", "config/initializers/"
+      copy_file "log_it.rb", "config/initializers/log_it.rb"
     end
     #copy_file "log_it.rb", "config/initializers/log_it.rb"
   end
