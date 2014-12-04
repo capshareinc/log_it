@@ -7,6 +7,5 @@ module LogIt
     def copy_initializer_file
       copy_file "log_it.rb", "config/initializers/log_it.rb"
     end
-    #copy_file "log_it.rb", "config/initializers/log_it.rb"
   end
 end
