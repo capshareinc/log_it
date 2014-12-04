@@ -1,6 +1,6 @@
 # LogIt
 
-TODO: Write a gem description
+Simple ubiquitous method to write to the log. Writing out Rails.logger.info is way too hard. This is easier. And it has colors, so.... yay.
 
 ## Installation
 
@@ -18,9 +18,15 @@ Or install it yourself as:
 
     $ gem install log_it
 
+Initialize it with
+
+```
+rake initialize_log_it
+```
+
 ## Usage
 
-TODO: Write usage instructions here
+
 
 ## Contributing
 
