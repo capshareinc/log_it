@@ -25,3 +25,6 @@ logit "info plain", lvl: 'info'
 logit "Again with teh info", lvl: :info
 logit "Rails.logger.fatal by severity", severity: 4
 ```
+
+## More Readings
+Read up on the possible log levels (aka severities) on the Rails docs [here](http://guides.rubyonrails.org/debugging_rails_applications.html#log-levels).
