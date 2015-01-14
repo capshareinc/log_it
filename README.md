@@ -29,4 +29,4 @@ logit "Rails.logger.fatal by severity", severity: 4
 ## More Readings
 Read up on the possible log levels (aka severities) on the Rails docs [here](http://guides.rubyonrails.org/debugging_rails_applications.html#log-levels).
 
-Logit relies on the [Colorize](https://github.com/fazibear/colorize) gem for its prettiness. If you want to see the possible colors you can send to Logit run `String.colors` in your Rails Console
+LogIt relies on the [Colorize](https://github.com/fazibear/colorize) gem for its prettiness. If you want to see the possible colors you can send to LogIt run `String.colors` in your Rails Console
